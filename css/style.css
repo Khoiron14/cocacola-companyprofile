@@ -39,21 +39,14 @@ section h3 {
 
 .product-logo {
     height: 80px;
-    margin: 0 auto;
 }
 
 .vm {
     color: rgb(70, 70, 70);
 }
 
-.video iframe {
-    display: block;
-    margin: 0 auto;
-}
-
 footer {
     padding: 30px 0;
     background-color: #FE001A;
     color: #fff;
-    text-align: center;
 }
