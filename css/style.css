@@ -8,21 +8,6 @@ header img {
     background-size: cover;
 }
 
-.banner:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(254, 0, 26, .6);
-}
-
-.banner img {
-    z-index: 1;
-}
-
 section h3 {
     color: #FE001A;
 }
