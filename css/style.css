@@ -2,11 +2,15 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: Segoe UI;
+}
+
 header img {
   width: 100px;
 }
 
-.banner {
+#banner {
     height: 60vh;
     background-image: url('../assets/images/banner.jpg');
     background-size: cover;
@@ -16,21 +20,24 @@ section h3 {
     color: #FE001A;
 }
 
-.about p {
+#about p {
     color: rgb(70, 70, 70);
     word-spacing: 2px;
     line-height: 25px;
 }
 
-.product {
+#product {
     background-color: #f9f9f9;
 }
 
-.product-logo {
-    height: 80px;
+#product img {
+    object-fit: cover;
+    object-position: center;
+    width: 250px;
+    height: 250px;
 }
 
-.vm {
+#vm {
     color: rgb(70, 70, 70);
 }
 
